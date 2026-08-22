@@ -1,1 +1,6 @@
-
+services:
+  - type: web
+    name: domain-smp
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
